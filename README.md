@@ -14,9 +14,9 @@
 
 *Este sistema se encuentra en la red local de la refinería y para acceder son los operarios los exportan la información, pongamos unos ejemplos para aclarar como se accede a la información desde afuera de la red interna:*
 
-`	`*-Imaginemos que la refinería subcontrata una mejora de un proceso (por ejemplo se requiere añadir una bomba para aumentar la presión de un sistema y así mejorar el rendimiento), esta ingeniería para saber las condiciones del proceso actual tiene dos fuentes una es el P&ID(process and instrument diagram) el cual es un plano donde están registrado las condiciones del proceso, y otra para comprobar que el proceso actualmente funcione de acuerdo a el P&ID es preguntar a la refinería, la cual le pone en contacto con un operario que te proporciona un pantallazo del sistema(en la imagen anterior ‘panel de visualización’) y un histórico que se obtiene de la base de datos de este sistema on-premise.*
+*-Imaginemos que la refinería subcontrata una mejora de un proceso (por ejemplo se requiere añadir una bomba para aumentar la presión de un sistema y así mejorar el rendimiento), esta ingeniería para saber las condiciones del proceso actual tiene dos fuentes una es el P&ID(process and instrument diagram) el cual es un plano donde están registrado las condiciones del proceso, y otra para comprobar que el proceso actualmente funcione de acuerdo a el P&ID es preguntar a la refinería, la cual le pone en contacto con un operario que te proporciona un pantallazo del sistema(en la imagen anterior ‘panel de visualización’) y un histórico que se obtiene de la base de datos de este sistema on-premise.*
 
-`	`*-Para conocer la cantidad de producto almacenado que tiene la planta desde las oficinas centrales: un operario generaría un archivo Excel con cada tanque y su capacidad y se lo enviaría vía email. Como se observa la respuesta es bastante lenta ya que la oficina central debe de ponerse en contacto con la refinería esta generar el informe y luego mandarlo, para una refinería bien, pero si tienes 20 ... el proceso se ralentiza.*
+*-Para conocer la cantidad de producto almacenado que tiene la planta desde las oficinas centrales: un operario generaría un archivo Excel con cada tanque y su capacidad y se lo enviaría vía email. Como se observa la respuesta es bastante lenta ya que la oficina central debe de ponerse en contacto con la refinería esta generar el informe y luego mandarlo, para una refinería bien, pero si tienes 20 ... el proceso se ralentiza.*
 
 *Por lo que nuestra estrategia se centrara en conectar el sistema actual a la nube para proporcionar acceso tanto en tiempo real como a históricos de la información generada en la refinería.*
 
@@ -57,6 +57,7 @@ Para el desarrollo de la plataforma usaremos el principio de divide y vencerás.
 1) Conexión de cada señal, mediante el sistema de kks uniremos los diferentes componentes.
 
 # Link a Diagrama:
+-https://github.com/pedrodd2/practica_BD_architecture/blob/main/diagrama.drawio
 
 
 
